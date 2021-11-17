@@ -1,11 +1,11 @@
 import style from "./section-three.module.css";
-import styleMain from "../main-page.module.css";
+import styleText from "../css/text-fonts.module.css";
 
 const SectionThree = () => {
   return (
     <div className={style.section3}>
       <div>
-        <span className={styleMain.textLarger}>
+        <span className={styleText.textLarger}>
           <br />
           MESSING WITH THE LIGHT
           <br />
@@ -29,7 +29,7 @@ const SectionThree = () => {
       </div>
 
       <div>
-        <span className={styleMain.textLarger}>
+        <span className={styleText.textLarger}>
           <br />
           WHAT ACCOMPLISHES THE COLLAPSE?
           <br />

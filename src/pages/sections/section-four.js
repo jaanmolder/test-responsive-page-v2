@@ -1,5 +1,5 @@
 import style from "./section-four.module.css";
-import styleMain from "../main-page.module.css";
+import styleText from "../css/text-fonts.module.css";
 import iconEmail from "../../images/envelope.png";
 import iconPhone from "../../images/phone.png";
 
@@ -8,7 +8,7 @@ const SectionFour = () => {
     <div className={style.section4}>
       <div className={style.section4Section1}>
         <div>
-          <span className={styleMain.textLarger}>
+          <span className={styleText.textLarger}>
             <br />
             WANT HIGHER?
             <br />
@@ -24,7 +24,7 @@ const SectionFour = () => {
         <div>
           <br />
           <br />
-          <span className={styleMain.textLarger}>CONTACT US</span>
+          <span className={styleText.textLarger}>CONTACT US</span>
           <br />
           <br />
           Before these experiments most
@@ -40,7 +40,7 @@ const SectionFour = () => {
         <div>
           <br />
           <br />
-          <span className={styleMain.textLarge}>LOCATION</span>
+          <span className={styleText.textLarge}>LOCATION</span>
           <br />
           <br />
           AllPal OÜ

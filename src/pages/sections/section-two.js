@@ -1,11 +1,11 @@
 import style from "./section-two.module.css";
-import styleMain from "../main-page.module.css";
+import styleText from "../css/text-fonts.module.css";
 
 const SectionTwo = () => {
   return (
     <div className={style.section2}>
       <div>
-        <span className={styleMain.textLarger}>
+        <span className={styleText.textLarger}>
           <br />
           IS THE WEB POSSIBLE <br />
           WITHOUT SPIDER?
@@ -22,7 +22,7 @@ const SectionTwo = () => {
         observation: The only thing we perceive are our perceptions.
       </div>
       <div>
-        <span className={styleMain.textLarge}>COLOUR, SOUND</span>
+        <span className={styleText.textLarge}>COLOUR, SOUND</span>
         <br />
         <br />
         Color, sound, temperature, and the like exist only as perceptions in our
@@ -30,7 +30,7 @@ const SectionTwo = () => {
         of an outside universe at all.
         <br />
         <br />
-        <span className={styleMain.textLarge}>TEMPERATURE</span>
+        <span className={styleText.textLarge}>TEMPERATURE</span>
         <br />
         <br />
         For centuries, scientist regarded Berkeley's argument as a philosophical
