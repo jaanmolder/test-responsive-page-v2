@@ -1,0 +1,15 @@
+.section3 {
+  background-repeat: repeat-y;
+  background-image: url("../../images/middle.png");
+  background-size: 100vw auto;
+  padding: 5% 10% 5% 10%;
+
+  color: white;
+  font-size: medium;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  text-align: start;
+  grid-auto-rows: 100%;
+  line-height: 25px;
+}
