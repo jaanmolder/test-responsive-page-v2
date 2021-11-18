@@ -3,10 +3,18 @@ import styleText from "../css/text-fonts.module.css";
 import iconEmail from "../../images/envelope.png";
 import iconPhone from "../../images/phone.png";
 
-const SectionFour = () => {
+const SectionFour = ({ mobile }) => {
+  let secStyle = style.section4Section2Grid2;
+  let secPattern = style.section4
+
+  if (mobile) {
+    secStyle = style.section4SectionMobile;
+    secPattern = style.section4Mobile;
+  }
+
   return (
-    <div className={style.section4}>
-      <div className={style.section4Section1}>
+    <div className={secPattern}>
+      <div className={style.section4SectionGrid1}>
         <div>
           <span className={styleText.textLarger}>
             <br />
@@ -20,7 +28,7 @@ const SectionFour = () => {
         </div>
       </div>
 
-      <div className={style.section4Section2}>
+      <div className={secStyle}>
         <div>
           <br />
           <br />
@@ -34,13 +42,13 @@ const SectionFour = () => {
           <br />
           <br />
           <img src={iconPhone} alt="Phone" /> +372 65656565
-          <br />
-          <br />
+          {/*<br />*/}
+          {/*<br />*/}
         </div>
         <div>
           <br />
           <br />
-          <span className={styleText.textLarge}>LOCATION</span>
+          <span className={styleText.textLarger}>LOCATION</span>
           <br />
           <br />
           AllPal OÜ

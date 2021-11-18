@@ -13,3 +13,15 @@
   grid-auto-rows: 100%;
   line-height: 25px;
 }
+
+.section3Mobile {
+  background-repeat: repeat-y;
+  background-image: url("../../images/mobile-mid.png");
+  background-size: 100vw auto;
+  padding: 5% 5% 5% 5%;
+
+  color: white;
+  font-size: medium;
+  text-align: start;
+  line-height: 25px;
+}

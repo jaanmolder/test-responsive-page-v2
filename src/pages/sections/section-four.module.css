@@ -7,7 +7,16 @@
   font-size: medium;
 }
 
-.section4Section1 {
+.section4Mobile {
+  background-repeat: repeat-y;
+  background-image: url("./../../images/pattern-mobile.png");
+  background-size: 100vw auto;
+  padding: 5% 10% 5% 10%;
+  color: #333333;
+  font-size: medium;
+}
+
+.section4SectionGrid1 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 10px;
@@ -16,11 +25,16 @@
   line-height: 25px;
 }
 
-.section4Section2 {
+.section4Section2Grid2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   text-align: start;
   grid-auto-rows: 100%;
+  line-height: 25px;
+}
+
+.section4SectionMobile {
+  text-align: start;
   line-height: 25px;
 }

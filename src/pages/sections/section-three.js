@@ -1,9 +1,15 @@
 import style from "./section-three.module.css";
 import styleText from "../css/text-fonts.module.css";
 
-const SectionThree = () => {
+const SectionThree = ({ mobile }) => {
+  let secStyle = style.section3;
+
+  if (mobile) {
+    secStyle = style.section3Mobile;
+  }
+
   return (
-    <div className={style.section3}>
+    <div className={secStyle}>
       <div>
         <span className={styleText.textLarger}>
           <br />
