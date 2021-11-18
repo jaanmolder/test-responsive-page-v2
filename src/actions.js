@@ -1,13 +1,22 @@
-export const getItem = async (url, setData) => {
+export const fetchHandler = async (url) => {
+  let res;
   try {
-    fetch(url)
-      .then((response) => response.json())
-      .then((json) => {
-        setData(json);
-        // console.log(json);
-      })
-      .catch((error) => console.log(error));
+    const response = await fetch(url);
+
+    res = await response.json();
+
+    return res;
   } catch (error) {
     console.log(error);
+  }
+};
+
+export const getItem = async (url, setData) => {
+  try {
+    const res = await fetchHandler(url);
+
+    setData(res);
+  } catch (error) {
+    // console.log(error);
   }
 };
