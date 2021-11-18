@@ -44,8 +44,6 @@ const SectionFour = ({ mobile }) => {
           <br />
           <img src={iconPhone} alt="Phone" className={style.icon} /> +372
           65656565
-          {/*<br />*/}
-          {/*<br />*/}
         </div>
         <div>
           <br />
