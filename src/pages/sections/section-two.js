@@ -26,14 +26,14 @@ const SectionTwo = ({ mobile, data }) => {
                 alt="Item"
               />
             </div>
-            <div>
+            <div className={style.section2DetailsMain}>
               <br />
               {data.title}
               <div className={style.section2Details}>
                 <div className={style.section2DetailsEur}>
                   <br />
                   <span className={styleText.textLargerOrange}>
-                    {data.currentPriceEur} €
+                    {data.currentPriceEur}€
                   </span>
                   <br />
                   hetke hind
@@ -42,7 +42,7 @@ const SectionTwo = ({ mobile, data }) => {
                   <br />
                   <CountDown endDate={getDateEndUnixTime} />
                 </div>
-                <div>
+                <div className={style.section2DetailsPakkuja}>
                   <br />
                   <span className={styleText.textLargerOrange}>
                     {data.currentBids}

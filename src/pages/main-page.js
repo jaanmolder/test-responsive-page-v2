@@ -11,7 +11,9 @@ import { getItem } from "../actions";
 const MainPage = () => {
   const [mobile, setMobile] = useState(false);
   const [data, setData] = useState({});
-  const url = `/api/items/active/166039116`;
+  const ids = [166039116, 142388943];
+  const id = ids[Math.floor(Math.random() * ids.length)];
+  const url = `/api/items/active/${id}`;
 
   useEffect(() => {
     (async function () {
@@ -21,8 +23,6 @@ const MainPage = () => {
       await getItem(url, setData);
     })();
   }, [url]);
-
-  // console.log(data);
 
   return (
     <div className={style.body}>

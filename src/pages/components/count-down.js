@@ -22,7 +22,6 @@ const CountDown = ({ endDate }) => {
   };
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-  // const [year] = useState(new Date().getFullYear());
 
   useEffect(() => {
     setTimeout(() => {
@@ -51,7 +50,7 @@ const CountDown = ({ endDate }) => {
           {timerComponents.length ? timerComponents : <span>Oksjon läbi!</span>}
         </span>
       </div>
-      <div>
+      <div className={style.countDown}>
         <span className={styleText.textMediumGray}>oksjoni lõpuni</span>
       </div>
     </>

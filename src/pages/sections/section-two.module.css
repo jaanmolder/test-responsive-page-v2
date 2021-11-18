@@ -1,29 +1,23 @@
 .section2 {
-  /*background-repeat: repeat-y;*/
-  /*background-image: url("./../../images/pattern.png");*/
-  /*background-size: 100vw auto;*/
-  padding: 5% 10% 5% 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 4%;
   color: #333333;
   font-size: medium;
-  /*display: grid;*/
-  /*grid-template-columns: repeat(1, 1fr);*/
-  /*gap: 10px;*/
-  /*text-align: start;*/
-  /*grid-auto-rows: 100%;*/
   line-height: 25px;
 }
 
 .section2Container {
-  /*border: 1px solid red;*/
   display: flex;
 }
 .section2ContainerMobile {
-  /*border: 1px solid red;*/
+}
+
+.section2DetailsMain {
+  min-width: 70%;
 }
 
 .section2Details {
-  /*border: 1px solid green;*/
-  /*display: flex;*/
   color: gray;
   font-size: medium;
   display: grid;
@@ -36,16 +30,17 @@
 
 .section2DetailsEur {
   min-width: 100px;
-  /*border: 1px solid red;*/
+  text-align: center;
+}
+
+.section2DetailsPakkuja {
+  min-width: 100px;
+  text-align: center;
 }
 
 .section2Image {
-  width: 30%;
+  width: 70%;
 }
 
 .section2Help {
-  /*border: 1px solid red;*/
-  /*width: 50%;*/
-  /*max-width: 40%;*/
-  /*padding: 0;*/
 }
