@@ -1,7 +1,7 @@
-export const fetchHandler = async (url) => {
+export const fetchHandler = async (url, config) => {
   let res;
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, config);
 
     res = await response.json();
 
