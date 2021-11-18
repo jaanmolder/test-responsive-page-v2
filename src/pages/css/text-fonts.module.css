@@ -9,3 +9,15 @@
   font-size: x-large;
   font-weight: bold;
 }
+
+.textLargerOrange {
+  color: orangered;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.textMediumGray {
+  color: gray;
+  font-size: medium;
+  font-weight: bold;
+}

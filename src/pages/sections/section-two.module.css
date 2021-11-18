@@ -1,15 +1,51 @@
 .section2 {
-  background-repeat: repeat-y;
-  background-image: url("./../../images/pattern.png");
-  background-size: 100vw auto;
+  /*background-repeat: repeat-y;*/
+  /*background-image: url("./../../images/pattern.png");*/
+  /*background-size: 100vw auto;*/
   padding: 5% 10% 5% 10%;
 
   color: #333333;
   font-size: medium;
+  /*display: grid;*/
+  /*grid-template-columns: repeat(1, 1fr);*/
+  /*gap: 10px;*/
+  /*text-align: start;*/
+  /*grid-auto-rows: 100%;*/
+  line-height: 25px;
+}
+
+.section2Container {
+  /*border: 1px solid red;*/
+  display: flex;
+}
+.section2ContainerMobile {
+  /*border: 1px solid red;*/
+}
+
+.section2Details {
+  /*border: 1px solid green;*/
+  /*display: flex;*/
+  color: gray;
+  font-size: medium;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   text-align: start;
   grid-auto-rows: 100%;
   line-height: 25px;
+}
+
+.section2DetailsEur {
+  min-width: 100px;
+  /*border: 1px solid red;*/
+}
+
+.section2Image {
+  width: 30%;
+}
+
+.section2Help {
+  /*border: 1px solid red;*/
+  /*max-width: 40%;*/
+  padding: 0;
 }

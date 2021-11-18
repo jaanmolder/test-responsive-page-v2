@@ -20,20 +20,16 @@ const MainPage = () => {
       }
       await getItem(url, setData);
     })();
-  }, []);
+  }, [url]);
 
-  console.log(data);
+  // console.log(data);
 
   return (
     <div className={style.body}>
       <SectionOne mobile={mobile} />
-
       <SectionTwo mobile={mobile} data={data} />
-
       <SectionThree mobile={mobile} />
-
       <SectionFour mobile={mobile} />
-
       <SectionFive />
     </div>
   );

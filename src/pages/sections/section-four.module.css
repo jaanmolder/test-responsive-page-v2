@@ -38,3 +38,9 @@
   text-align: start;
   line-height: 25px;
 }
+
+.icon {
+  position: relative;
+  top: 5px;
+  left: -5px;
+}

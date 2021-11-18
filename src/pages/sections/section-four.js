@@ -5,7 +5,7 @@ import iconPhone from "../../images/phone.png";
 
 const SectionFour = ({ mobile }) => {
   let secStyle = style.section4Section2Grid2;
-  let secPattern = style.section4
+  let secPattern = style.section4;
 
   if (mobile) {
     secStyle = style.section4SectionMobile;
@@ -38,10 +38,12 @@ const SectionFour = ({ mobile }) => {
           Before these experiments most
           <br />
           <br />
-          <img src={iconEmail} alt="Email" /> info@allepal.ee
+          <img src={iconEmail} alt="Email" className={style.icon} />{" "}
+          info@allepal.ee
           <br />
           <br />
-          <img src={iconPhone} alt="Phone" /> +372 65656565
+          <img src={iconPhone} alt="Phone" className={style.icon} /> +372
+          65656565
           {/*<br />*/}
           {/*<br />*/}
         </div>
