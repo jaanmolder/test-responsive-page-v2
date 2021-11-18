@@ -1,4 +1,11 @@
 .section1 {
   width: 100vw;
   height: max-content;
+  z-index: -1;
+}
+
+.section1Arrow {
+  z-index: 0;
+  position: relative;
+  top: -80px;
 }

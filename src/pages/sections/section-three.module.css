@@ -1,7 +1,7 @@
 .section3 {
-  background-repeat: repeat-y;
+  /*background-repeat: repeat-y;*/
   background-image: url("../../images/middle.png");
-  background-size: 100vw auto;
+  background-size: auto 100vh;
   padding: 5% 10% 5% 10%;
 
   color: white;

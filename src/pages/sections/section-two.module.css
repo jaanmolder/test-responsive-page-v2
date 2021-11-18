@@ -3,7 +3,6 @@
   /*background-image: url("./../../images/pattern.png");*/
   /*background-size: 100vw auto;*/
   padding: 5% 10% 5% 10%;
-
   color: #333333;
   font-size: medium;
   /*display: grid;*/
@@ -46,6 +45,7 @@
 
 .section2Help {
   /*border: 1px solid red;*/
+  /*width: 50%;*/
   /*max-width: 40%;*/
-  padding: 0;
+  /*padding: 0;*/
 }

@@ -53,7 +53,7 @@ const SectionFour = ({ mobile }) => {
           <span className={styleText.textLarger}>LOCATION</span>
           <br />
           <br />
-          AllPal OÜ
+          AllePal OÜ
           <br />
           Pärnu maantee 139 / Kohila 8<br />
           11317 Tallinn, Estonia
